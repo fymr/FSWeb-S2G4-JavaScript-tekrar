@@ -135,7 +135,7 @@ let siralisayilar = besyuzdenkucuksayilar.sort((a,b)=> a-b);
 
 let tekraredenler={
   tekrarSayisi:0,
-  tekraredensayilar:[],
+  tekraredensayilar:[]
 }
 for(let i=0;i<sayilar.length;i++){
   for(let j=1;j<sayilar.length;j++){
